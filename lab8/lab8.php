@@ -12,7 +12,7 @@ $shippingFlatAmount = 200;
 $subtotal = 0;
 $shipping = 0;
 $grandTotal = 0;
-$subtotal=$price1*$quantity1+$price2*$quantity2+$price3*$quantity3+$price4+$quantity4;
+$subtotal=$price1*$quantity1+$price2*$quantity2+$price3*$quantity3+$price4*$quantity4;
 if ($subtotal>$shippingThreshold){
     $shipping=100;
 }else{
